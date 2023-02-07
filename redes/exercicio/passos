@@ -1,0 +1,5 @@
+* criar deployment webapp e pods mysql 
+* acessar shell do pod webapp
+    kubectl exec -it nome-do-pod -- bash
+* conectar no pod do mysql via shell 
+    mysql -h ip-pod-mysql -uroot -ppassword geek
